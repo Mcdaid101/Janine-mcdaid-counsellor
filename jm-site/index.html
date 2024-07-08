@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.tailwindcss.com"></script>
+   <!-- Tailwind CSS CDN -->
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+   <!-- DaisyUI CDN -->
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet">
   <title>Janine Mc Daid Counselling</title>
 </head>
 <body>
+    <!--Nav Bar-->
+  <header>
     <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
@@ -28,7 +31,7 @@
             </div>
             <ul
               tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-semibold">
             <li><a>Home</a></li>
             <li><a>Counselling</a></li>
             <li><a>About</a></li>
@@ -38,7 +41,7 @@
           <a class="btn btn-ghost text-xl">Janine Mc Daid Counselling</a>
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
+          <ul class="menu menu-horizontal px-1 font-semibold">
             <li><a>Home</a></li>
             <li><a>Counselling</a></li>
             <li><a>About</a></li>
@@ -46,5 +49,50 @@
           </ul>
         </div>
       </div>
+    </header>
+
+  <main class="bg-#EBD9B4 min-h-screen flex flex-col justify-center">
+    <section class="bg-blue-200 text-center py-20">
+      <div class="container mx-auto">
+          <h2 class="text-4xl font-bold mb-4">Find Peace and Clarity with Professional Counseling</h2>
+          <p class="text-xl mb-8">Compassionate support to help you navigate life's challenges</p>
+          <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-full">Schedule Your Free Consultation</a>
+      </div>
+  </section>
+    <!--Home section-->
+    <section class="max-w-md w-full mx-auto relative bg-#EBD9B4">
+      <div class="">
+        <img src="assets/images/help.png">
+      </div>
+      <h1 class="text-center">Welcome to my site</h1>
+    </section>
+
+    <section class="bg-blue-200 text-center py-20">
+      <div class="container mx-auto">
+          <h2 class="text-4xl font-bold mb-4">Find Peace and Clarity with Professional Counseling</h2>
+          <p class="text-xl mb-8">Compassionate support to help you navigate life's challenges</p>
+          <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-full">Schedule Your Free Consultation</a>
+      </div>
+  </section>
+
+    <!--Counselling section -->
+    <section>
+      <div class="border"></div>
+    </section>
+
+    <!--About -->
+    <section>
+      <div class="border"></div>
+    </section>
+
+    <!--Contact -->
+    <section>
+      <div class="border"></div>
+    </section>
+
+    <!--Footer -->
+    <footer class="bg-red-500">Site by McDaid Web Development.</footer>
+  </main>
+
 </body>
 </html>
