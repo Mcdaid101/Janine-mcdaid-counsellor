@@ -10,148 +10,187 @@
   <title>Janine Mc Daid Counselling</title>
 </head>
 <body>
-    <!--Nav Bar-->
-  <header>
-    <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+    <div class="drawer">
+      <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+      <div class="drawer-content flex flex-col">
+        <!-- Navbar -->
+        <div class="navbar bg-white w-full">
+          <div class="flex-none lg:hidden">
+            <label for="my-drawer-3" aria-label="open sidebar" class="btn btn-square btn-ghost">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor">
+                class="inline-block h-6 w-6 stroke-current">
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
+                  d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
-            </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-semibold">
-            <li><a>Home</a></li>
-            <li><a>Counselling</a></li>
-            <li><a>About</a></li>
-            <li><a>Contact</a></li>
+            </label>
+          </div>
+          <div class="mx-2 flex-1 px-2 font-semibold"><a href="#">Janine Mc Daid Counseling</a></div>
+          <div class="hidden flex-none lg:block font-semibold">
+            <ul class="menu menu-horizontal">
+              <!-- Navbar menu content here -->
+              <li><a>Home</a></li>
+              <li><a>Counselling</a></li>
+              <li><a>About</a></li>
+              <li><a>Contact</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl">Janine Mc Daid Counselling</a>
         </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 font-semibold">
+      
+        <!-- Main Page content here -->
+        <main class="bg-#EBD9B4 min-h-screen flex flex-col justify-center">
+
+          <!--Home section-->
+            <section class="bg-blue-200 text-center py-20">
+              <div class="container mx-auto">
+                  <h2 class="text-4xl font-bold mb-4">Find Peace and Clarity with Professional Counseling</h2>
+                  <p class="text-xl mb-8">Compassionate support to help you navigate life's challenges</p>
+                  <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-full">Get in Touch</a>
+              </div>
+          </section>
+        
+          <!--Home image -->
+            <section class="max-w-md w-full mx-auto relative bg-#EBD9B4">
+              <div class="">
+                <img src="assets/images/help.png">
+              </div>
+            </section>
+        
+            <!--Counselling section -->
+            <section class="py-20 bg-blue-200">
+              <div class="container mx-auto px-4">
+                  <h2 class="text-3xl font-bold text-center mb-8">Counseling</h2>
+                  <p class="text-center mb-12">I offer a range of tservices tailored to meet your specific needs.</p>
+                  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                      <div class="bg-white p-6 rounded-lg">
+                          <h3 class="text-xl font-bold mb-2">Individual Therapy</h3>
+                          <p class="mb-2">One-on-one sessions focused on personal growth and overcoming challenges.</p>
+                          <ul class="list-disc list-inside">
+                              <li>Personalized approach</li>
+                              <li>Confidential and safe</li>
+                              <li>Goal-oriented</li>
+                          </ul>
+                      </div>
+                      <div class="bg-white p-6 rounded-lg">
+                          <h3 class="text-xl font-bold mb-2">Couples Therapy</h3>
+                          <p class="mb-2">Helping couples improve communication and strengthen their relationship.</p>
+                          <ul class="list-disc list-inside">
+                              <li>Conflict resolution</li>
+                              <li>Rebuilding trust</li>
+                              <li>Improving intimacy</li>
+                          </ul>
+                      </div>
+                      <div class="bg-white p-6 rounded-lg">
+                          <h3 class="text-xl font-bold mb-2">Family Therapy</h3>
+                          <p class="mb-2">Guidance and support for families to build healthier relationships.</p>
+                          <ul class="list-disc list-inside">
+                              <li>Improving communication</li>
+                              <li>Resolving conflicts</li>
+                              <li>Strengthening bonds</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </section>
+        
+          <section class="py-20 bg-white">
+              <div class="container mx-auto px-4">
+                  <h2 class="text-3xl font-bold text-center mb-8">What I Can Help You With</h2>
+                  <p class="text-center mb-12">I can assist with a wide range of issues to help you achieve better mental health and well-being.</p>
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      <div class="bg-blue-200 p-6 rounded-lg shadow-md">
+                          <h3 class="text-xl font-bold mb-2">Anxiety and Stress</h3>
+                          <p>Techniques and support to manage anxiety and reduce stress.</p>
+                      </div>
+                      <div class="bg-white p-6 rounded-lg shadow-md">
+                          <h3 class="text-xl font-bold mb-2">Depression</h3>
+                          <p>Compassionate care to help you navigate through depressive episodes.</p>
+                      </div>
+                      <div class="bg-white p-6 rounded-lg shadow-md">
+                          <h3 class="text-xl font-bold mb-2">Relationship Issues</h3>
+                          <p>Guidance to improve communication and resolve conflicts in relationships.</p>
+                      </div>
+                      <div class="bg-white p-6 rounded-lg shadow-md">
+                          <h3 class="text-xl font-bold mb-2">Trauma and PTSD</h3>
+                          <p>Specialized support to help you heal from past traumas.</p>
+                      </div>
+                      <div class="bg-white p-6 rounded-lg shadow-md">
+                          <h3 class="text-xl font-bold mb-2">Self-Esteem Issues</h3>
+                          <p>Building self-worth and confidence to improve your quality of life.</p>
+                      </div>
+                      <div class="bg-white p-6 rounded-lg shadow-md">
+                          <h3 class="text-xl font-bold mb-2">Life Transitions</h3>
+                          <p>Support during significant changes in your life, such as career shifts or loss.</p>
+                      </div>
+                  </div>
+              </div>
+          </section>
+        
+            <!--About -->
+            <section class="py-20 bg-blue-200">
+              <div class="container mx-auto px-4">
+                  <h2 class="text-3xl font-bold text-center mb-8">About</h2>
+                  <p class="text-center mb-12">Here's a little bit about me</p>
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                      <div class="bg-white p-6 rounded-lg">
+                        <h3 class="text-xl font-bold mb-2">Story so far</h3>
+                        <ul class="steps steps-vertical">
+                          <li data-content="" class="step">2000 Primary school teacher</li>
+                          <li data-content="" class="step">2005 Secondary school SNA</li>
+                          <li data-content="" class="step">2020 Went back to university to become a psychotherapist</li>
+                          <li data-content="" class="step">2024 Began my own practice</li>
+                        </ul>
+                      </div>
+                      <div class="bg-white p-6 rounded-lg">
+                        <h3 class="text-xl font-bold mb-2">Example</h3>
+                        <p class="mb-2">EXample text just some filler </p>
+                    </div>
+                  </div>
+              </div>
+          </section>
+        
+            <!--Contact -->
+            <section class="py-20 bg-blue-200">
+              <div class="container mx-auto px-4">
+                  <h2 class="text-3xl font-bold text-center mb-8">Contact</h2>
+                  <div class="grid grid-cols-1 gap-8">
+              <label class="input input-bordered flex items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  fill="currentColor"
+                  class="h-4 w-4 opacity-70">
+                  <path
+                    d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
+                  <path
+                    d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
+                </svg>
+                <input type="text" class="grow" placeholder="Email" />
+              </label>
+            </section>
+        
+            <!--Footer -->
+            <footer class="bg-blue-200">Site by McDaid Web Development.</footer>
+          </main>
+      </div>
+
+      <!-- Drawer -->
+      <div class="drawer-side">
+        <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
+        <ul class="menu bg-base-200 min-h-full w-80 p-4">
+          <!-- Sidebar content here -->
             <li><a>Home</a></li>
             <li><a>Counselling</a></li>
             <li><a>About</a></li>
             <li><a>Contact</a></li>
-          </ul>
-        </div>
+        </ul>
       </div>
-    </header>
-
-  <main class="bg-#EBD9B4 min-h-screen flex flex-col justify-center">
-
-  <!--Home section-->
-    <section class="bg-blue-200 text-center py-20">
-      <div class="container mx-auto">
-          <h2 class="text-4xl font-bold mb-4">Find Peace and Clarity with Professional Counseling</h2>
-          <p class="text-xl mb-8">Compassionate support to help you navigate life's challenges</p>
-          <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-full">Get in Touch</a>
-      </div>
-  </section>
-
-  <!--Home image -->
-    <section class="max-w-md w-full mx-auto relative bg-#EBD9B4">
-      <div class="">
-        <img src="assets/images/help.png">
-      </div>
-    </section>
-
-    <!--Counselling section -->
-    <section id="treatments" class="py-20 bg-blue-200">
-      <div class="container mx-auto px-4">
-          <h2 class="text-3xl font-bold text-center mb-8">Counseling</h2>
-          <p class="text-center mb-12">I offer a range of tservices tailored to meet your specific needs.</p>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div class="bg-white p-6 rounded-lg">
-                  <h3 class="text-xl font-bold mb-2">Individual Therapy</h3>
-                  <p class="mb-2">One-on-one sessions focused on personal growth and overcoming challenges.</p>
-                  <ul class="list-disc list-inside">
-                      <li>Personalized approach</li>
-                      <li>Confidential and safe</li>
-                      <li>Goal-oriented</li>
-                  </ul>
-              </div>
-              <div class="bg-white p-6 rounded-lg">
-                  <h3 class="text-xl font-bold mb-2">Couples Therapy</h3>
-                  <p class="mb-2">Helping couples improve communication and strengthen their relationship.</p>
-                  <ul class="list-disc list-inside">
-                      <li>Conflict resolution</li>
-                      <li>Rebuilding trust</li>
-                      <li>Improving intimacy</li>
-                  </ul>
-              </div>
-              <div class="bg-white p-6 rounded-lg">
-                  <h3 class="text-xl font-bold mb-2">Family Therapy</h3>
-                  <p class="mb-2">Guidance and support for families to build healthier relationships.</p>
-                  <ul class="list-disc list-inside">
-                      <li>Improving communication</li>
-                      <li>Resolving conflicts</li>
-                      <li>Strengthening bonds</li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-  </section>
-
-  <section id="help" class="py-20 bg-white">
-      <div class="container mx-auto px-4">
-          <h2 class="text-3xl font-bold text-center mb-8">What I Can Help You With</h2>
-          <p class="text-center mb-12">I can assist with a wide range of issues to help you achieve better mental health and well-being.</p>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div class="bg-blue-200 p-6 rounded-lg shadow-md">
-                  <h3 class="text-xl font-bold mb-2">Anxiety and Stress</h3>
-                  <p>Techniques and support to manage anxiety and reduce stress.</p>
-              </div>
-              <div class="bg-white p-6 rounded-lg shadow-md">
-                  <h3 class="text-xl font-bold mb-2">Depression</h3>
-                  <p>Compassionate care to help you navigate through depressive episodes.</p>
-              </div>
-              <div class="bg-white p-6 rounded-lg shadow-md">
-                  <h3 class="text-xl font-bold mb-2">Relationship Issues</h3>
-                  <p>Guidance to improve communication and resolve conflicts in relationships.</p>
-              </div>
-              <div class="bg-white p-6 rounded-lg shadow-md">
-                  <h3 class="text-xl font-bold mb-2">Trauma and PTSD</h3>
-                  <p>Specialized support to help you heal from past traumas.</p>
-              </div>
-              <div class="bg-white p-6 rounded-lg shadow-md">
-                  <h3 class="text-xl font-bold mb-2">Self-Esteem Issues</h3>
-                  <p>Building self-worth and confidence to improve your quality of life.</p>
-              </div>
-              <div class="bg-white p-6 rounded-lg shadow-md">
-                  <h3 class="text-xl font-bold mb-2">Life Transitions</h3>
-                  <p>Support during significant changes in your life, such as career shifts or loss.</p>
-              </div>
-          </div>
-      </div>
-  </section>
-
-    <!--About -->
-    <section>
-      <div class="border"></div>
-    </section>
-
-    <!--Contact -->
-    <section>
-      <div class="border"></div>
-    </section>
-
-    <!--Footer -->
-    <footer class="bg-blue-200">Site by McDaid Web Development.</footer>
-  </main>
+    </div>
 
 </body>
 </html>
