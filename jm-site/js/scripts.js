@@ -9,3 +9,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+const d = new Date();
+let year = d.getFullYear();
+document.getElementById("showYear").innerHTML = "Site by MCD web development " + year;
