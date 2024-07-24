@@ -2,6 +2,9 @@
 module.exports = {
   content: [],
   darkMode: 'false',
+  daisyui: {
+    themes: false,
+  },
   theme: {
     extend: {},
   },
