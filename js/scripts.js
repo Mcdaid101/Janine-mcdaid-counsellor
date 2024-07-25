@@ -33,3 +33,18 @@ function getRandomQuote() {
 
 const randomQuote = getRandomQuote();
 document.getElementById("quote").innerHTML = randomQuote.quote + randomQuote.author;
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible-section');
+        observer.unobserve(entry.target); // Stop observing after adding the class
+      }
+    });
+  });
+
+  const section = document.querySelector('#animated-section');
+  observer.observe(section);
+});
