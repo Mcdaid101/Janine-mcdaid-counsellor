@@ -10,7 +10,7 @@
    <link href="css/styles.css" rel="stylesheet">
   <title>Janine Mc Daid Counselling</title>
 </head>
-<body>
+<body class="bg-blue-200">
     <div class="drawer">
       <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content flex flex-col">
@@ -31,7 +31,9 @@
               </svg>
             </label>
           </div>
-          <div class="mx-2 flex-1"><a href="index.html"> Janine Mc Daid Counselling</a></div>
+          <div class="flex-1 flex items-center">
+            <a href="index.html" class="text-lg font-bold">Janine Mc Daid Counselling</a>
+          </div>
           <div class="hidden flex-none lg:block font-semibold">
             <ul class="menu menu-horizontal">
               <!-- Navbar menu content here -->
@@ -44,23 +46,16 @@
         </div>
       
 <!-- Main Page content here -->
-<div class=" bg-blue-200 flex flex-col min-h-screen">
-      <!-- Inspo quote -->
-      <section id="home" class="bg-blue-200 text-center py-20">
-        <div class="container mx-auto">
-            <p class="text-xl font-bold" id="quote"></p>
-        </div>
-      </section>
-
-  <main class=" flex-grow flex flex-col justify-center bg-white">
+<div class="flex flex-col min-h-screen">
+  <main class=" flex-grow flex flex-col justify-center">
     
     <!-- Welcome -->
     <section class="container mx-auto p-8">
       <div class="flex flex-col md:flex-row items-center">
         <div class="w-full md:w-1/2">
-          <img src="assets/images/woman.png" alt="Placeholder Image" class="w-full h-auto max-w-md mx-auto rounded-lg">
+          <img src="assets/images/woman.png" alt="Placeholder Image" class="w-full h-auto max-w-md mx-auto rounded-lg bg-white p-7 shadow-xl">
         </div>
-        <div class="w-full md:w-1/2 mt-4 md:mt-0 md:ml-8">
+        <div class="w-full md:w-1/2 mt-4 md:mt-0 md:ml-8 bg-white border-white p-7 rounded-lg shadow-xl">
           <h2 class="text-2xl font-bold mb-4">Welcome to Janine Mc Daid Counseling</h2>
           <p class="mb-4">
             My name is Janine McDaid, and I have my counselling practice in Donegal. 
@@ -82,7 +77,13 @@
     </section>
   </main>
 
-  <section id="animated-section" class="container mx-auto my-10 p-8 hidden-section bg-blue-200 rounded-lg">
+  <section id="home" class="bg-white text-center py-20">
+    <div class="container mx-auto">
+        <p class="text-xl font-bold" id="quote"></p>
+    </div>
+  </section>
+
+  <section id="animated-section" class=" container mx-auto my-10 p-8 bg-blue-200 rounded-lg">
     <div class="flex flex-col md:flex-row justify-between gap-10 items-start space-y-0 md:space-y-0 md:space-x-0">
       <!--Card 1-->
       <div class="card bg-base-100 w-full md:w-1/2 shadow-xl flex flex-col">

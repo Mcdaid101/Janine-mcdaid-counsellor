@@ -10,7 +10,7 @@
    <link href="css/styles.css" rel="stylesheet">
   <title>Janine Mc Daid Counselling</title>
 </head>
-<body>
+<body class="bg-blue-200">
     <div class="drawer">
       <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content flex flex-col">
@@ -47,56 +47,53 @@
         <main class="bg-#EBD9B4 min-h-screen flex flex-col justify-center">
 
           <!-- Section 1 -->
-          <section class="container mx-auto p-8 bg-white">
-            <div class="flex flex-col items-center md:flex-row-reverse">
-              <div class="w-full md:w-1/2">
-                <img src="assets/images/therapy.png" alt="Placeholder Image" class="w-full rounded-lg">
-              </div>
-              <div class="w-full md:w-1/2 mt-4 md:mt-0 md:mr-8">
-                <h2 class="text-2xl font-bold mb-4 text-center">About</h2>
-                <!-- Accordion -->
-                <div class="collapse collapse-arrow bg-base-200 mb-4">
-                  <input type="radio" name="my-accordion-2" checked="checked" />
-                  <div class="collapse-title text-xl font-medium">What is therapy?</div>
-                  <div class="collapse-content">
-                    <p>Therapy, also known as counseling or psychotherapy, is a process where a trained therapist helps you address and resolve personal issues, mental health conditions, and emotional difficulties through discussion and various techniques.</p>
-                  </div>
+          <main class="bg-#EBD9B4 min-h-screen flex flex-col justify-center items-center">
+            <section class="container mx-auto p-8 w-full md:w-1/2">
+                <div class="flex flex-col items-center">
+                    <div class="w-full mt-4 md:mt-0">
+                        <h2 class="text-2xl font-bold mb-4 text-center">About</h2>
+                        <!-- Accordion -->
+                        <div class="collapse collapse-arrow bg-base-200 mb-4">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">What is therapy?</div>
+                            <div class="collapse-content">
+                                <p>Therapy, also known as counseling or psychotherapy, is a process where a trained therapist helps you address and resolve personal issues, mental health conditions, and emotional difficulties through discussion and various techniques.</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-200 mb-4">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">How do I know if I need therapy?</div>
+                            <div class="collapse-content">
+                                <p>You might benefit from therapy if you're experiencing persistent feelings of sadness, anxiety, or anger, struggling to cope with daily life, facing relationship difficulties, or dealing with trauma. Therapy can help with a wide range of issues, not just severe mental health conditions.</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-200 mb-4">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">What can I expect in a therapy session?</div>
+                            <div class="collapse-content">
+                                <p>In a therapy session, you can expect to talk about your thoughts, feelings, and experiences with your therapist. The therapist will listen, provide support, and help you gain insights into your issues. They may also teach you coping skills and strategies to manage your problems effectively.</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-200 mb-4">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">How long does therapy take?</div>
+                            <div class="collapse-content">
+                                <p>The duration of therapy varies depending on individual needs and goals. Some people may feel better after a few sessions, while others might need ongoing support for several months or even years. Your therapist will work with you to develop a treatment plan that suits your situation.</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-200 mb-4">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">Is therapy confidential?</div>
+                            <div class="collapse-content">
+                                <p>Yes, therapy is generally confidential. Therapists are bound by ethical and legal guidelines to keep what you share private, with a few exceptions. These exceptions include situations where there is a risk of harm to yourself or others, or if there is a legal obligation to disclose certain information.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="collapse collapse-arrow bg-base-200 mb-4">
-                  <input type="radio" name="my-accordion-2" />
-                  <div class="collapse-title text-xl font-medium">How do I know if I need therapy?</div>
-                  <div class="collapse-content">
-                    <p>You might benefit from therapy if you're experiencing persistent feelings of sadness, anxiety, or anger, struggling to cope with daily life, facing relationship difficulties, or dealing with trauma. Therapy can help with a wide range of issues, not just severe mental health conditions.</p>
-                  </div>
-                </div>
-                <div class="collapse collapse-arrow bg-base-200 mb-4">
-                  <input type="radio" name="my-accordion-2" />
-                  <div class="collapse-title text-xl font-medium">What can I expect in a therapy session?</div>
-                  <div class="collapse-content">
-                    <p>In a therapy session, you can expect to talk about your thoughts, feelings, and experiences with your therapist. The therapist will listen, provide support, and help you gain insights into your issues. They may also teach you coping skills and strategies to manage your problems effectively.</p>
-                  </div>
-                </div>
-                <div class="collapse collapse-arrow bg-base-200 mb-4">
-                  <input type="radio" name="my-accordion-2" />
-                  <div class="collapse-title text-xl font-medium">How long does therapy take?</div>
-                  <div class="collapse-content">
-                    <p>The duration of therapy varies depending on individual needs and goals. Some people may feel better after a few sessions, while others might need ongoing support for several months or even years. Your therapist will work with you to develop a treatment plan that suits your situation.</p>
-                  </div>
-                </div>
-                <div class="collapse collapse-arrow bg-base-200 mb-4">
-                  <input type="radio" name="my-accordion-2" />
-                  <div class="collapse-title text-xl font-medium">Is therapy confidential?</div>
-                  <div class="collapse-content">
-                    <p>Yes, therapy is generally confidential. Therapists are bound by ethical and legal guidelines to keep what you share private, with a few exceptions. These exceptions include situations where there is a risk of harm to yourself or others, or if there is a legal obligation to disclose certain information.</p>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-          </section>
+            </section>
 
           <!-- Inspo quote -->
-          <section id="home" class="bg-blue-200 text-center py-20">
+          <section id="home" class="bg-white text-center py-20 w-full">
             <div class="container mx-auto">
                 <p class="text-xl font-bold" id="quote"></p>
             </div>
@@ -186,7 +183,7 @@
 
           
             <!--Footer -->
-            <footer class="footer bg-blue-200 text-neutral-content items-center p-4">
+            <footer class="footer bg-white text-neutral-content items-center p-4">
               <div id="showYear" class="text-black"></div>
               <nav class="grid-flow-col gap-4 text-3xl md:place-self-center md:justify-self-end">
                <a href=""><i class="fa-brands fa-linkedin text-blue-800"></i></a>
