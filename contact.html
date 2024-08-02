@@ -10,7 +10,7 @@
    <link href="css/styles.css" rel="stylesheet">
   <title>Janine Mc Daid Counselling</title>
 </head>
-<body>
+<body class="bg-blue-200">
     <div class="drawer">
       <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content flex flex-col">
@@ -31,7 +31,7 @@
               </svg>
             </label>
           </div>
-          <div class="mx-2 flex-1"><a href="#home"> Janine Mc Daid Counselling</a></div>
+          <div class="mx-2 flex-1 text-lg font-bold"><a href="index.html"> Janine Mc Daid <i class="fa-solid fa-user-doctor"></i> Counselling</a></div>
           <div class="hidden flex-none lg:block font-semibold">
             <ul class="menu menu-horizontal">
               <!-- Navbar menu content here -->
@@ -48,23 +48,24 @@
 
                       <!--Contact -->
                       <section id="contact" class="py-20 bg-blue-200">
-                        <div class="container mx-auto px-4">
+                        <div class="container mx-auto px-4 bg-white w-1/2 p-6 rounded-3xl">
                             <h2 class="text-3xl font-bold text-center mb-8">Contact</h2>
                             <h3 class="text-center mb-8">Leave your details below and a short message and I will get back to you within 24 hours.</h3>
                             <div class="grid grid-cols-1 max-w-screen-md mx-auto gap-2">
                                 <label class="input input-bordered flex items-center gap-2">
-                                    <i class="fa-regular fa-user"></i>
+                                  <i class="fa-solid fa-user"></i>
                                     <input type="text" class="grow" placeholder="Name" />
                                 </label>
                                 <label class="input input-bordered flex items-center gap-2">
-                                    <i class="fa-regular fa-envelope"></i>
+                                  <i class="fa-solid fa-envelope"></i>
                                     <input type="text" class="grow" placeholder="Email" />
                                 </label>
                                 <label class="input input-bordered flex items-center gap-2">
-                                    <i class="fa-solid fa-phone"></i>
+                                  <i class="fa-solid fa-phone"></i>
                                     <input type="text" class="grow" placeholder="Phone Number" />
                                 </label>
                                 <textarea placeholder="Let me know how I can help." class="textarea textarea-bordered textarea-lg w-full"></textarea>
+                                <button class="btn gap-2">Submit</button>
                             </div>
                         </div>
                       </section>
@@ -95,7 +96,7 @@
                       </section>
             
             <!--Footer -->
-            <footer class="footer bg-blue-200 text-neutral-content items-center p-4">
+            <footer class="footer bg-white text-neutral-content items-center p-4">
               <div id="showYear" class="text-black"></div>
               <nav class="grid-flow-col gap-4 text-3xl md:place-self-center md:justify-self-end">
                <a href=""><i class="fa-brands fa-linkedin text-blue-800"></i></a>
