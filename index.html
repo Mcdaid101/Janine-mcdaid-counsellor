@@ -10,7 +10,7 @@
    <link href="css/styles.css" rel="stylesheet">
   <title>Janine Mc Daid Counselling</title>
 </head>
-<body>
+<body class="bg-blue-200">
     <div class="drawer">
       <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content flex flex-col">
@@ -31,7 +31,9 @@
               </svg>
             </label>
           </div>
-          <div class="mx-2 flex-1 text-lg font-bold"><a href="index.html"> Janine Mc Daid <i class="fa-solid fa-user-doctor"></i> Counselling</a></div>
+          <div class="flex-1 flex items-center">
+            <div class="mx-2 flex-1 text-lg font-bold"><a href="index.html"> Janine Mc Daid <i class="fa-solid fa-user-doctor"></i> Counselling</a></div>
+          </div>
           <div class="hidden flex-none lg:block font-semibold">
             <ul class="menu menu-horizontal">
               <!-- Navbar menu content here -->
@@ -43,123 +45,116 @@
           </div>
         </div>
       
-        <!-- Main Page content here -->
-        <main class="bg-#EBD9B4 min-h-screen flex flex-col justify-center">
-
-          <!-- Home section -->
-          <section id="home" class="relative w-full text-center py-20 bg-blue-200 md:min-h-dvh">
-            <div class="container mx-auto">
-                <h1 class="text-4xl font-bold mb-4 text-black">Find Peace and Clarity with Professional Counseling in Donegal</h1>
-                <p class="text-xl mb-8 text-black">Compassionate support to help you navigate life's challenges</p>
-            </div>
-        </section>
-        
-          <!-- Welcome -->
-          <section class="container mx-auto p-8">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="w-full md:w-1/2">
-                    <img src="assets/images/woman.png" alt="Placeholder Image" class="w-full h-auto max-w-md mx-auto rounded-lg">
-                </div>
-                <div class="w-full md:w-1/2 mt-4 md:mt-0 md:ml-8">
-                    <h2 class="text-2xl font-bold mb-4">Welcome to Janine Mc Daid Counseling</h2>
-                    <p class="mb-4">
-                        My name is Janine McDaid, and I have my counselling practice in Donegal. 
-                        I also offer online therapy sessions to accommodate my clients’ needs.
-                        I understand that life can become challenging and overwhelming at times.
-                        Having a warm and compassionate space to talk things through can make all the difference.
-                        If this is what you're seeking, I am here to help.
-                        Life often throws us new challenges, whether it's work stress, mental health issues, relationship problems, or family struggles.
-                        It's easy to feel out of control and at the mercy of your circumstances.
-                        Therapy can help change this dynamic – it allows you to take back control of your life and prioritise your personal growth.
-                        I have extensive experience working with a variety of issues, including depression, anxiety, burnout, and relationship struggles.
-                        However, you don’t need to be in crisis to benefit from therapy.
-                        If you feel the desire to work on yourself and improve your life, therapy can provide that support.
-                        If you are ready to take this step, I am here to support you.
-                        Learn a little more about me <a class="underline" href="#about">here</a>
-                    </p>
-                    <button class="btn"><a href="contact.html">Contact</a></button>
-                </div>
-            </div>
-        </section>
-        
-      
-            <!-- Inspo quote -->
-            
-
-            <!-- Section 1: Image Left, Text Right -->
-            <section class="container mx-auto p-8">
-              <div class="flex flex-col md:flex-row items-center">
-                <div class="w-full md:w-1/2">
-                  <img src="assets/images/counselling.jpg" alt="Placeholder Image" class="w-full h-1/2 rounded-lg">
-                </div>
-                <div class="w-full md:w-1/2 mt-4 md:mt-0 md:ml-8">
-                  <h2 class="text-2xl font-bold mb-4">Counselling</h2>
-                  <p class="text-gray-700">
-                    Life demands flexibility, and my approach to therapy mirrors this necessity. I offer both in-person and online sessions to accommodate your busy schedule and seamlessly integrate therapy into your life. Whether you need long-term or short-term therapy, I tailor my services to your unique needs and goals. If you're interested, I provide a free consultation call to discuss the best approach and medium for you, with the understanding that your needs may evolve over time. Therapy should adapt to life's changes, and my services are designed to do just that.
-                  </p>
-                  <button class="btn mt-6 left-0"><a href="counselling.html">Find out more</a></button>
-                </div>
-              </div>
-            </section>
-
-            <!-- Section 2: Text Left, Image Right -->
-            <section class="container mx-auto p-8 bg-white">
-              <div class="flex flex-col items-center md:flex-row-reverse">
-                <div class="w-full md:w-1/2">
-                  <img src="assets/images/therapy.png" alt="Placeholder Image" class="w-full rounded-lg">
-                </div>
-                <div class="w-full md:w-1/2 mt-4 md:mt-0 md:mr-8">
-                  <h2 class="text-2xl font-bold mb-4">About</h2>
-                  <p class="text-gray-700">I am a highly trained and experienced integrative person-centred therapist based in Donegal. I have extensive experience working on a variety of challenges, including mental health issues, domestic abuse, and relationship and work-related problems. My approach is to provide an empathetic and supportive environment where you can explore the reasons for seeking therapy and discover your path to wellbeing. Whether you are in crisis or simply wish to improve your life, I am here to help you find a way forward through therapy.</p>
-                  <button class="btn mt-6 left-0"><a href="about.html">More about me</a></button>
-                </div>
-              </div>
-            </section>
-
-            <section id="animated-section" class="container mx-auto my-10 p-8 hidden-section">
-              <div class="flex flex-col md:flex-row justify-between items-start space-y-4 md:space-y-0 md:space-x-4">
-                <!--Card 1-->
-                <div class="card bg-base-100 w-full md:w-1/3 shadow-xl flex flex-col">
-                  <div class="card-body flex-grow p-4">
-                    <h2 class="card-title"><a href="counselling.html">Counselling</a></h2>
-                  </div>
-                  <a href="counselling.html"><img
-                    src="assets/images/bottom3.png"
-                    alt="Counselling" class="rounded-b-lg object-contain h-48 w-full" /></a>
-                </div>
-                <!--Card 2 -->
-                <div class="card bg-base-100 w-full md:w-1/3 shadow-xl flex flex-col">
-                  <div class="card-body flex-grow p-4">
-                    <h2 class="card-title"><a href="about.html">About</a></h2>
-                  </div>
-                  <a href="about.html"><img
-                    src="assets/images/bottom1.png"
-                    alt="About" class="rounded-b-lg object-contain h-48 w-full" /></a>
-                </div>
-                <!--Card 3-->
-                <div class="card bg-base-100 w-full md:w-1/3 shadow-xl flex flex-col">
-                  <div class="card-body flex-grow p-4">
-                    <h2 class="card-title"><a href="contact.html">Contact</a></h2>
-                    </div>
-                    <a href="contact.html">
-                    <img
-                      src="assets/images/contact.png"
-                      alt="Contact" class="rounded-b-lg object-contain h-48 w-full" />
-                    </a>
-                </div>
-              </div>
-            </section>
-            
-            <!--Footer -->
-            <footer class="footer bg-blue-200 text-neutral-content items-center p-4">
-              <div id="showYear" class="text-black"></div>
-              <nav class="grid-flow-col gap-4 text-3xl md:place-self-center md:justify-self-end">
-               <a href=""><i class="fa-brands fa-linkedin text-blue-800"></i></a>
-               <a href=""><i class="fa-brands fa-square-facebook text-blue-600"></i></a>
-              </nav>
-            </footer>
-          </main>
+<!-- Main Page content here -->
+<div class="flex flex-col min-h-screen">
+  <main class=" flex-grow flex flex-col justify-center">
+    
+    <!-- Home section -->
+    <section id="home" class="relative w-full text-center bg-no-repeat bg-cover py-20 md:min-h-dvh" style="background-image: url('./assets/images/sky4.png');">
+      <div class="container mx-auto">
+          <h1 class="text-4xl font-bold mb-4 text-black">Find Peace and Clarity with Professional Counseling in Donegal</h1>
+          <p class="text-xl mb-8 text-black">Compassionate support to help you navigate life's challenges</p>
       </div>
+  </section>
+
+    <!-- Welcome -->
+    <section class="container mx-auto p-8">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="w-full md:w-1/2">
+          <img src="assets/images/woman.png" alt="Placeholder Image" class="w-full h-auto max-w-md mx-auto rounded-3xl bg-white p-7 shadow-xl">
+        </div>
+        <div class="w-full md:w-1/2 mt-4 md:mt-0 md:ml-8 bg-white border-white p-7 rounded-3xl shadow-xl">
+          <h2 class="text-2xl font-bold mb-4">Welcome to Janine Mc Daid Counseling</h2>
+          <p class="mb-4">
+            My name is Janine McDaid, and I have my counselling practice in Donegal. 
+            I also offer online therapy sessions to accommodate my clients’ needs.
+            I understand that life can become challenging and overwhelming at times.
+            Having a warm and compassionate space to talk things through can make all the difference.
+            If this is what you're seeking, I am here to help.
+            Life often throws us new challenges, whether it's work stress, mental health issues, relationship problems, or family struggles.
+            It's easy to feel out of control and at the mercy of your circumstances.
+            Therapy can help change this dynamic – it allows you to take back control of your life and prioritise your personal growth.
+            I have extensive experience working with a variety of issues, including depression, anxiety, burnout, and relationship struggles.
+            However, you don’t need to be in crisis to benefit from therapy.
+            If you feel the desire to work on yourself and improve your life, therapy can provide that support.
+            If you are ready to take this step, I am here to support you.
+          </p>
+          <button class="btn">Contact</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section id="home" class="bg-white text-center py-20">
+    <div class="container mx-auto">
+        <p class="text-xl font-bold" id="quote"></p>
+    </div>
+  </section>
+
+  <!-- Section 1: Image Left, Text Right -->
+  <section class="container mx-auto p-8">
+    <div class="flex flex-col md:flex-row items-center">
+      <div class="w-full md:w-1/2">
+        <img src="assets/images/counselling.jpg" alt="Placeholder Image" class="w-full h-1/2 rounded-lg">
+      </div>
+      <div class="w-full md:w-1/2 mt-4 md:mt-0 md:ml-8">
+        <h2 class="text-2xl font-bold mb-4">Counselling</h2>
+        <p class="text-gray-700">
+          Life demands flexibility, and my approach to therapy mirrors this necessity. I offer both in-person and online sessions to accommodate your busy schedule and seamlessly integrate therapy into your life. Whether you need long-term or short-term therapy, I tailor my services to your unique needs and goals. If you're interested, I provide a free consultation call to discuss the best approach and medium for you, with the understanding that your needs may evolve over time. Therapy should adapt to life's changes, and my services are designed to do just that.
+        </p>
+        <button class="btn mt-6 left-0"><a href="counselling.html">Find out more</a></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Text Left, Image Right -->
+  <section class="container mx-auto p-8 bg-white">
+    <div class="flex flex-col items-center md:flex-row-reverse">
+      <div class="w-full md:w-1/2">
+        <img src="assets/images/therapy.png" alt="Placeholder Image" class="w-full rounded-lg">
+      </div>
+      <div class="w-full md:w-1/2 mt-4 md:mt-0 md:mr-8">
+        <h2 class="text-2xl font-bold mb-4">About</h2>
+        <p class="text-gray-700">I am a highly trained and experienced integrative person-centred therapist based in Donegal. I have extensive experience working on a variety of challenges, including mental health issues, domestic abuse, and relationship and work-related problems. My approach is to provide an empathetic and supportive environment where you can explore the reasons for seeking therapy and discover your path to wellbeing. Whether you are in crisis or simply wish to improve your life, I am here to help you find a way forward through therapy.</p>
+        <button class="btn mt-6 left-0"><a href="about.html">More about me</a></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="animated-section" class=" container mx-auto my-10 p-8 bg-blue-200 rounded-lg">
+    <div class="flex flex-col md:flex-row justify-between gap-10 items-start space-y-0 md:space-y-0 md:space-x-0">
+      <!--Card 1-->
+      <div class="card bg-base-100 w-full md:w-1/2 shadow-xl flex flex-col">
+        <div class="card-body flex-grow p-4">
+          <h2 class="card-title"><a href="counselling.html">Counselling</a></h2>
+        </div>
+        <a href="counselling.html"><img
+          src="assets/images/bottom3.png"
+          alt="Counselling" class="rounded-b-lg object-contain h-48 w-full" /></a>
+      </div>
+      <!--Card 2 -->
+      <div class="card bg-base-100 w-full md:w-1/2 shadow-xl flex flex-col">
+        <div class="card-body flex-grow p-4">
+          <h2 class="card-title"><a href="contact.html">Contact</a></h2>
+        </div>
+        <a href="contact.html">
+        <img
+          src="assets/images/bottom1.png"
+          alt="Contact" class="rounded-b-lg object-contain h-48 w-full" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer -->
+  <footer class="footer bg-white text-neutral-content items-center p-4">
+    <div id="showYear" class="text-black"></div>
+    <nav class="grid-flow-col gap-4 text-3xl md:place-self-center md:justify-self-end">
+      <a href=""><i class="fa-brands fa-linkedin text-blue-800"></i></a>
+      <a href=""><i class="fa-brands fa-square-facebook text-blue-600"></i></a>
+    </nav>
+  </footer>
+</div>
 
       <!-- Drawer -->
       <div class="drawer-side">
